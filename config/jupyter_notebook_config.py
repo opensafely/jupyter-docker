@@ -693,6 +693,7 @@ c.NotebookApp.token = u""
 #  be in your Jupyter data directory. You can set it to ':memory:' to disable
 #  sqlite writing to the filesystem.
 # c.NotebookNotary.db_file = ''
+c.NotebookNotary.db_file = ":memory:"
 
 ## The secret key with which notebooks are signed.
 # c.NotebookNotary.secret = b''
