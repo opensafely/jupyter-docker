@@ -5,6 +5,10 @@ RUN apt-get update
 # For pyodbc
 RUN apt-get install -y unixodbc-dev
 
+# For debugging
+RUN apt-get install -y sysstat lsof net-tools tcpdump vim
+
+
 # Install Microsoft stuff needed to install Pyodbc and access a SQL Server
 # database
 COPY install_mssql.sh /tmp/
