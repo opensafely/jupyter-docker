@@ -19,5 +19,8 @@ tqdm
 plotly
 ipywidgets
 
+# Profiling tools
+py-spy
+
 # Add extra per-notebook packages here
 pyodbc
