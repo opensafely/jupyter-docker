@@ -24,3 +24,4 @@ py-spy
 
 # Add extra per-notebook packages here
 pyodbc
+pillow
